@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -11,11 +12,6 @@ namespace Vehicle_Inheritance_Excercise
     {
         // TODO: zdefiniuj wspólne części klas pochodnych
         public string Model { get; set; }
-        //public int Sits { get; set; }
-
-        //public int Wheels { get; set; }
-
-        //public string Color { get; set; }
 
         public abstract void Start();
 
@@ -28,6 +24,9 @@ namespace Vehicle_Inheritance_Excercise
         // TODO: Uzupełnij implementację klasy Car, aby dziedziczyła po klasie Vehicle,
         // posiadała implementacje metod Start i Stop, oraz dodatkowe metody związane z samochodem.
         //public string Model { get; set; }
+
+        string Model = "ttt";
+
         public override void Start ()
         {
             Console.WriteLine($"Starting the car: {Model}");

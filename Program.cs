@@ -6,8 +6,6 @@
         {
             Console.WriteLine("Hello, World!");
 
-
-
             var car = new Car ();
 
             car.Model = "Toyota";
